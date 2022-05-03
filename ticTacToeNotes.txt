@@ -1,0 +1,15 @@
+Tic Tac Toe game requirements. 
+
+An API call to our server. JavaScript Trivia first, 
+Undertale trivia second, just in case. 
+
+Ideas for the gameboard: 
+Have 9 cards layed out, and if clicked and the resulting
+question is correct, 
+we toggle a class onto that card containing our X, or 
+our O. 
+(Have it flicker in. And play the undertale "accomplished" music, if you have time.)
+
+
+Status: 
+Coin Flip - Likely done. 

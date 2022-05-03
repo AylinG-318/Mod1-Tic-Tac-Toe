@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="TicApp.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <title>Trivia Tic-Tac-Toe</title>
+</head>
+<body>
+
+<div class="game-Containter">
+    <div class="GameTitle">
+        <h1>Welcome to Trivia Tic-Tac-Toe!</h1>
+        <h3>...Video Game trivia, to be specific.</h3>
+        <div class="optionsMenu">
+            Select your Difficulty!
+          <button id="easy">Easy</button>
+          <button id="medium">Medium</button>
+          <button id="hard">Hard</button>
+
+        </div>
+    </div>
+ 
+    <div>
+        <div>
+            <div>
+             <!-- <h2 class="Player X"></h2>
+                <h3 class="playerOrderX"></h3>
+                <h3 class="xRight"></h3>
+                <h3 class="xWrong"></h3> -->
+                <div>
+            
+                    <div>
+            <!-- <h2 class="Player O"></h2>
+                <h3 class="playerOrderO"></h3>
+                <h3 class="oRight"></h3>
+                <h3 class="oWrong"></h3> -->
+            </div>
+
+            <div class="playerBoxes">
+                <!-- <div class="playerX">Insert Picture of X Here</div>
+                <div class="playerO">Insert Pictrue of O Here</div> -->
+                <div class="playerWaitingDiv"></div>
+                <div class="playerControlDiv"></div>
+               
+                <div class="Player O">
+                    <p class="playerOrderO"></p>
+                    <!-- <p class="oRight"></p>
+                    <p class="oWrong"></p> -->
+                </div>
+        </div>
+
+    </div>
+    <p class="finalVerdict">How much trivia do you know?</p>
+       <div class="resetContainer">
+        <button class="reset">Reset Board</button>
+       </div>
+        <!-- We'll have 9 tiles. I can toggle an image onto them depending on 
+        what the current turn is. -->
+    </div>
+        
+    <div class="announcerChatter">
+        <div class="questionPopUp" id="questionPrompt">Get ready for Trivia! </div>
+        <div class="answerBox">
+            <button class="choices" id="choiceA"></button>
+            <button class="choices" id="choiceB"></button>
+            <button class="choices" id="choiceC"></button>
+            <button class="choices" id="choiceD"></button>
+            <!-- <input class="playerResponse" type="text" placeholder="type your answer here"></input>
+            <button class="buttonSubmit">Submit Answer</button> -->
+            <!-- Above commented out: Buttons mostly work, so no -->
+           
+            <!-- I'll need code to parse this answer.  -->
+        </div>
+    </div>
+    <div class="gameGrid">
+    <div id="box1" class="gameSquare"></div>
+    <div id="box2" class="gameSquare"></div>
+    <div id="box3" class="gameSquare"></div>
+    <div id="box4" class="gameSquare"></div>
+    <div id="box5" class="gameSquare"></div>
+    <div id="box6" class="gameSquare"></div>
+    <div id="box7" class="gameSquare"></div>
+    <div id="box8" class="gameSquare"></div>
+    <div id="box9" class="gameSquare"></div>
+  
+</div>
+<div>
+    
+
+</div>
+<!-- <div class="winnerAnnouncement">
+    <h2>Player X/O wins!</h2>
+    <button>Play again?</button>
+</div> -->
+
+<div class="questionChoices">
+    
+  <img src="/potential_images/sansGoodLuck.png">
+
+</div>
+
+
+
+</div>
+
+</body>
+</html>
